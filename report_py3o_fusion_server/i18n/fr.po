@@ -1,23 +1,20 @@
-# Translation of Odoo Server.
-# This file contains the translation of the following modules:
-# * report_py3o_fusion_server
-#
-# Translators:
-# OCA Transbot <transbot@odoo-community.org>, 2018
-# Quentin THEURET <odoo@kerpeo.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.0\n"
+"Project-Id-Version: ametras-xsolutions\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-25 03:45+0000\n"
-"PO-Revision-Date: 2018-01-25 03:45+0000\n"
-"Last-Translator: Quentin THEURET <odoo@kerpeo.com>, 2018\n"
-"Language-Team: French (https://www.transifex.com/oca/teams/23907/fr/)\n"
-"Language: fr\n"
+"Last-Translator: \n"
+"Language-Team: French\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Crowdin-Project: ametras-xsolutions\n"
+"X-Crowdin-Project-ID: 530964\n"
+"X-Crowdin-Language: fr\n"
+"X-Crowdin-File: /[AmetrasIntelligence.reporting-engine] 13.0/report_py3o_fusion_server/i18n/report_py3o_fusion_server.pot\n"
+"X-Crowdin-File-ID: 4688\n"
+"Language: fr_FR\n"
+"PO-Revision-Date: 2022-08-06 21:54\n"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields.selection,name:report_py3o_fusion_server.selection__py3o_pdf_options__open_bookmark_levels__10
@@ -52,11 +49,7 @@ msgstr ""
 #. module: report_py3o_fusion_server
 #: code:addons/report_py3o_fusion_server/models/ir_actions_report.py:0
 #, python-format
-msgid ""
-"A fusion server or a libreoffice runtime are required to genereate the py3o "
-"report '%s'. If the libreofficeruntime is already installed and is not found "
-"by Odoo, you can provide the full path to the runtime by setting the key "
-"'py3o.conversion_command' into the configuration parameters."
+msgid "A fusion server or a libreoffice runtime are required to genereate the py3o report '%s'. If the libreofficeruntime is already installed and is not found by Odoo, you can provide the full path to the runtime by setting the key 'py3o.conversion_command' into the configuration parameters."
 msgstr ""
 
 #. module: report_py3o_fusion_server
@@ -126,9 +119,8 @@ msgstr ""
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__pdf_form
-#, fuzzy
 msgid "Create PDF Form"
-msgstr "Date"
+msgstr ""
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__create_uid
@@ -140,7 +132,7 @@ msgstr "Créé par"
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__create_date
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_server__create_date
 msgid "Created on"
-msgstr "Date"
+msgstr "Créé le"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__cross_doc_link_action
@@ -153,7 +145,7 @@ msgstr ""
 #: model:ir.model.fields.selection,name:report_py3o_fusion_server.selection__py3o_pdf_options__magnification__0
 #: model:ir.model.fields.selection,name:report_py3o_fusion_server.selection__py3o_pdf_options__page_layout__0
 msgid "Default"
-msgstr ""
+msgstr "Défaut"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model,name:report_py3o_fusion_server.model_py3o_pdf_options
@@ -174,7 +166,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__display_name
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_server__display_name
 msgid "Display Name"
-msgstr "Nom à afficher"
+msgstr "Nom d'affichage"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__document_password
@@ -306,23 +298,17 @@ msgstr ""
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__id
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_server__id
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,help:report_py3o_fusion_server.field_py3o_pdf_options__pdfa
-msgid ""
-"If you enable this option, you will not be able to password-protect the "
-"document or apply other security settings."
+msgid "If you enable this option, you will not be able to password-protect the document or apply other security settings."
 msgstr ""
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,help:report_py3o_fusion_server.field_py3o_server__url
-msgid ""
-"If your Py3o Fusion server is on the same machine and runs on the default "
-"port, the URL is http://localhost:8765/form"
-msgstr ""
-"Si votre serveur Py3o Fusion est sur la même machine et fonctionne sur le "
-"port par défaut, l'URL est http://localhost:8765/form"
+msgid "If your Py3o Fusion server is on the same machine and runs on the default port, the URL is http://localhost:8765/form"
+msgstr "Si votre serveur Py3o Fusion est sur la même machine et fonctionne sur le port par défaut, l'URL est http://localhost:8765/form"
 
 #. module: report_py3o_fusion_server
 #: model_terms:ir.ui.view,arch_db:report_py3o_fusion_server.py3o_pdf_options_form
@@ -406,16 +392,12 @@ msgstr ""
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__name
 msgid "Name"
-msgstr ""
+msgstr "Nom"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,help:report_py3o_fusion_server.field_ir_actions_report__py3o_is_local_fusion
-msgid ""
-"Native formats will be processed without a server. You must use this mode if "
-"you call methods on your model into the template."
-msgstr ""
-"Les formats natifs seront traités sans un serveur. Vous devez utiliser ce "
-"mode si vous appelez des méthodes sur votre modèle dans le template."
+msgid "Native formats will be processed without a server. You must use this mode if you call methods on your model into the template."
+msgstr "Les formats natifs seront traités sans un serveur. Vous devez utiliser ce mode si vous appelez des méthodes sur votre modèle dans le template."
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields.selection,name:report_py3o_fusion_server.selection__py3o_pdf_options__changes__0
@@ -451,16 +433,12 @@ msgstr ""
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,help:report_py3o_fusion_server.field_py3o_server__pdf_options_id
-msgid ""
-"PDF options can be set per Py3o Server but also per report. If both are "
-"defined, the options on the report are used."
+msgid "PDF options can be set per Py3o Server but also per report. If both are defined, the options on the report are used."
 msgstr ""
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,help:report_py3o_fusion_server.field_ir_actions_report__pdf_options_id
-msgid ""
-"PDF options can be set per report, but also per Py3o Server. If both are "
-"defined, the options on the report are used."
+msgid "PDF options can be set per report, but also per Py3o Server. If both are defined, the options on the report are used."
 msgstr ""
 
 #. module: report_py3o_fusion_server
@@ -492,7 +470,7 @@ msgstr ""
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__printing
 msgid "Printing"
-msgstr ""
+msgstr "Impression"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_server__url
@@ -525,9 +503,8 @@ msgstr "Configuration des serveurs Py3o"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model,name:report_py3o_fusion_server.model_py3o_server
-#, fuzzy
 msgid "Py3o server"
-msgstr "Serveurs Py3o"
+msgstr ""
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__image_reduce_resolution
@@ -537,12 +514,12 @@ msgstr ""
 #. module: report_py3o_fusion_server
 #: model:ir.model,name:report_py3o_fusion_server.model_ir_actions_report
 msgid "Report Action"
-msgstr ""
+msgstr "Signaler une action"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model,name:report_py3o_fusion_server.model_py3o_report
 msgid "Report Py30"
-msgstr "Rapport Py30"
+msgstr ""
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__resize_windows_initial_page
@@ -557,7 +534,7 @@ msgstr ""
 #. module: report_py3o_fusion_server
 #: model_terms:ir.ui.view,arch_db:report_py3o_fusion_server.py3o_pdf_options_form
 msgid "Security"
-msgstr ""
+msgstr "Sécurité"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__watermark
@@ -582,38 +559,30 @@ msgstr ""
 #. module: report_py3o_fusion_server
 #: code:addons/report_py3o_fusion_server/models/py3o_pdf_options.py:0
 #, python-format
-msgid ""
-"The PDF/A option is not compatible with 'Cross-document Links' = 'Open with "
-"PDF Reader Application'."
+msgid "The PDF/A option is not compatible with 'Cross-document Links' = 'Open with PDF Reader Application'."
 msgstr ""
 
 #. module: report_py3o_fusion_server
 #: code:addons/report_py3o_fusion_server/models/py3o_pdf_options.py:0
 #, python-format
-msgid ""
-"The initial page parameter must be strictly positive (current value: %d)"
+msgid "The initial page parameter must be strictly positive (current value: %d)"
 msgstr ""
 
 #. module: report_py3o_fusion_server
 #: code:addons/report_py3o_fusion_server/models/py3o_pdf_options.py:0
 #, python-format
-msgid ""
-"The parameter Image JPEG Quality must be between 1 %% and 100 %% (current "
-"value: %s %%)"
+msgid "The parameter Image JPEG Quality must be between 1 %% and 100 %% (current value: %s %%)"
 msgstr ""
 
 #. module: report_py3o_fusion_server
 #: model_terms:ir.ui.view,arch_db:report_py3o_fusion_server.py3o_pdf_options_form
-msgid ""
-"The security settings are incompatible with the <b>PDF/A-1a</b> option in "
-"the <em>General</em> tab."
+msgid "The security settings are incompatible with the <b>PDF/A-1a</b> option in the <em>General</em> tab."
 msgstr ""
 
 #. module: report_py3o_fusion_server
 #: code:addons/report_py3o_fusion_server/models/py3o_pdf_options.py:0
 #, python-format
-msgid ""
-"The value of the zoom factor must be between 50 and 1600 (current value: %d)"
+msgid "The value of the zoom factor must be between 50 and 1600 (current value: %d)"
 msgstr ""
 
 #. module: report_py3o_fusion_server
@@ -624,7 +593,7 @@ msgstr ""
 #. module: report_py3o_fusion_server
 #: model_terms:ir.ui.view,arch_db:report_py3o_fusion_server.py3o_pdf_options_form
 msgid "User Interface"
-msgstr ""
+msgstr "Interface utilisateur"
 
 #. module: report_py3o_fusion_server
 #: model_terms:ir.ui.view,arch_db:report_py3o_fusion_server.py3o_pdf_options_form
@@ -658,13 +627,9 @@ msgstr ""
 
 #. module: report_py3o_fusion_server
 #: code:addons/report_py3o_fusion_server/models/ir_actions_report.py:0
-#, fuzzy, python-format
-msgid ""
-"You can not use remote fusion without Fusion server. Please specify a Fusion "
-"Server"
+#, python-format
+msgid "You can not use remote fusion without Fusion server. Please specify a Fusion Server"
 msgstr ""
-"Ne pas utiliser de formats natifs dans la fusion locale. Veuillez indiquer "
-"un serveur Fusion"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields.selection,name:report_py3o_fusion_server.selection__py3o_pdf_options__magnification__4
@@ -676,8 +641,3 @@ msgstr ""
 msgid "Zoom Factor"
 msgstr ""
 
-#~ msgid "ir.actions.report.xml"
-#~ msgstr "ir.actions.report.xml"
-
-#~ msgid "py3o.server"
-#~ msgstr "py3o.server"
