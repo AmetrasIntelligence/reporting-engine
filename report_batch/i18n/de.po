@@ -1,0 +1,102 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ametras-xsolutions\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: German\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: ametras-xsolutions\n"
+"X-Crowdin-Project-ID: 530964\n"
+"X-Crowdin-Language: de\n"
+"X-Crowdin-File: /[AmetrasIntelligence.reporting-engine] 13.0/report_batch/i18n/report_batch.pot\n"
+"X-Crowdin-File-ID: 4678\n"
+"Language: de_DE\n"
+"PO-Revision-Date: 2022-08-06 21:54\n"
+
+#. module: report_batch
+#: model_terms:ir.actions.act_window,help:report_batch.action_ir_actions_subreport
+msgid "Allows to add multi QWeb reports in a single batch"
+msgstr ""
+
+#. module: report_batch
+#: model_terms:ir.ui.view,arch_db:report_batch.act_batch_report_xml_view
+msgid "Batch Report"
+msgstr ""
+
+#. module: report_batch
+#: model:ir.actions.act_window,name:report_batch.action_ir_actions_subreport
+#: model:ir.ui.menu,name:report_batch.menu_action_ir_actions_subreport
+#: model_terms:ir.ui.view,arch_db:report_batch.act_batch_report_xml_view
+#: model_terms:ir.ui.view,arch_db:report_batch.view_ir_actions_subreport_tree
+msgid "Batch Reports"
+msgstr ""
+
+#. module: report_batch
+#: model:ir.model.fields,field_description:report_batch.field_ir_actions_report_subreport__create_uid
+msgid "Created by"
+msgstr "Erstellt von"
+
+#. module: report_batch
+#: model:ir.model.fields,field_description:report_batch.field_ir_actions_report_subreport__create_date
+msgid "Created on"
+msgstr "Erstellt am"
+
+#. module: report_batch
+#: model:ir.model.fields,field_description:report_batch.field_ir_actions_report_subreport__display_name
+msgid "Display Name"
+msgstr "Anzeigename"
+
+#. module: report_batch
+#: model:ir.model.fields,field_description:report_batch.field_ir_actions_report_subreport__id
+msgid "ID"
+msgstr "ID"
+
+#. module: report_batch
+#: model:ir.model.fields,field_description:report_batch.field_ir_actions_report_subreport____last_update
+msgid "Last Modified on"
+msgstr "Zuletzt geändert am"
+
+#. module: report_batch
+#: model:ir.model.fields,field_description:report_batch.field_ir_actions_report_subreport__write_uid
+msgid "Last Updated by"
+msgstr "Zuletzt aktualisiert von"
+
+#. module: report_batch
+#: model:ir.model.fields,field_description:report_batch.field_ir_actions_report_subreport__write_date
+msgid "Last Updated on"
+msgstr "Zuletzt aktualisiert am"
+
+#. module: report_batch
+#: model:ir.model.fields,field_description:report_batch.field_ir_actions_report_subreport__model
+msgid "Model Name"
+msgstr "Modellname"
+
+#. module: report_batch
+#: model:ir.model.fields,field_description:report_batch.field_ir_actions_report_subreport__parent_report_id
+msgid "Parent Report"
+msgstr ""
+
+#. module: report_batch
+#: model:ir.model,name:report_batch.model_ir_actions_report
+msgid "Report Action"
+msgstr "Aktionen"
+
+#. module: report_batch
+#: model:ir.model,name:report_batch.model_ir_actions_report_subreport
+msgid "Report Subreport"
+msgstr ""
+
+#. module: report_batch
+#: model:ir.model.fields,field_description:report_batch.field_ir_actions_report_subreport__sequence
+msgid "Sequence"
+msgstr "Sequenz"
+
+#. module: report_batch
+#: model:ir.model.fields,field_description:report_batch.field_ir_actions_report__subreport_ids
+#: model:ir.model.fields,field_description:report_batch.field_ir_actions_report_subreport__subreport_id
+msgid "Subreport"
+msgstr ""
+
