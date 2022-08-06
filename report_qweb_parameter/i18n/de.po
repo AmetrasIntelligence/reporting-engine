@@ -1,0 +1,40 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ametras-xsolutions\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: German\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: ametras-xsolutions\n"
+"X-Crowdin-Project-ID: 530964\n"
+"X-Crowdin-Language: de\n"
+"X-Crowdin-File: /[AmetrasIntelligence.reporting-engine] 13.0/report_qweb_parameter/i18n/report_qweb_parameter.pot\n"
+"X-Crowdin-File-ID: 4694\n"
+"Language: de_DE\n"
+"PO-Revision-Date: 2022-08-06 21:53\n"
+
+#. module: report_qweb_parameter
+#: model:ir.actions.report,name:report_qweb_parameter.test_report_length_report_id
+msgid "Length Report"
+msgstr ""
+
+#. module: report_qweb_parameter
+#: code:addons/report_qweb_parameter/models/ir_qweb.py:0
+#, python-format
+msgid "Length cannot be less than %s"
+msgstr ""
+
+#. module: report_qweb_parameter
+#: code:addons/report_qweb_parameter/models/ir_qweb.py:0
+#, python-format
+msgid "Length cannot be more than %s"
+msgstr ""
+
+#. module: report_qweb_parameter
+#: model:ir.model,name:report_qweb_parameter.model_ir_qweb
+msgid "Qweb"
+msgstr ""
+
