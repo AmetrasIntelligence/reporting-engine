@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.reporting-engine] 13.0/report_py3o/i18n/report_py3o.pot\n"
 "X-Crowdin-File-ID: 4686\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-06 21:54\n"
+"PO-Revision-Date: 2022-08-06 23:55\n"
 
 #. module: report_py3o
 #: code:addons/report_py3o/models/ir_actions_report.py:0
@@ -241,7 +241,7 @@ msgstr "Berichtstyp"
 #. module: report_py3o
 #: model:ir.model.fields,field_description:report_py3o.field_ir_actions_report__py3o_template_id
 msgid "Template"
-msgstr ""
+msgstr "Vorlage"
 
 #. module: report_py3o
 #: model:ir.model.fields,help:report_py3o.field_ir_actions_report__module
