@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.reporting-engine] 13.0/kpi_dashboard/i18n/kpi_dashboard.pot\n"
 "X-Crowdin-File-ID: 4676\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-06 23:55\n"
+"PO-Revision-Date: 2022-08-12 14:28\n"
 
 #. module: kpi_dashboard
 #: code:addons/kpi_dashboard/models/kpi_kpi.py:0
@@ -575,7 +575,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_kpi__value
 #: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_kpi_history__value
 msgid "Value"
-msgstr ""
+msgstr "Wert"
 
 #. module: kpi_dashboard
 #: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_kpi__value_last_update
