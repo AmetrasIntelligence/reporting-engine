@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.reporting-engine] 13.0/kpi/i18n/kpi.pot\n"
 "X-Crowdin-File-ID: 4674\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-06 21:54\n"
+"PO-Revision-Date: 2022-08-12 14:28\n"
 
 #. module: kpi
 #: model:ir.model.fields,field_description:kpi.field_kpi__active
@@ -457,7 +457,7 @@ msgstr "Gültig"
 #: model:ir.model.fields,field_description:kpi.field_kpi__value
 #: model:ir.model.fields,field_description:kpi.field_kpi_history__value
 msgid "Value"
-msgstr ""
+msgstr "Wert"
 
 #. module: kpi
 #: model:ir.model.fields.selection,name:kpi.selection__kpi__periodicity_uom__week
