@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.reporting-engine] 13.0/report_wkhtmltopdf_param/i18n/report_wkhtmltopdf_param.pot\n"
 "X-Crowdin-File-ID: 4700\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-06 21:54\n"
+"PO-Revision-Date: 2022-08-12 14:28\n"
 
 #. module: report_wkhtmltopdf_param
 #: model:ir.model.fields,field_description:report_wkhtmltopdf_param.field_report_paperformat_parameter__create_uid
@@ -95,7 +95,7 @@ msgstr ""
 #. module: report_wkhtmltopdf_param
 #: model:ir.model.fields,field_description:report_wkhtmltopdf_param.field_report_paperformat_parameter__value
 msgid "Value"
-msgstr ""
+msgstr "Wert"
 
 #. module: report_wkhtmltopdf_param
 #: model:ir.model,name:report_wkhtmltopdf_param.model_report_paperformat_parameter
