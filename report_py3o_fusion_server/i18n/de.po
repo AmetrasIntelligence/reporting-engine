@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.reporting-engine] 13.0/report_py3o_fusion_server/i18n/report_py3o_fusion_server.pot\n"
 "X-Crowdin-File-ID: 4688\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-06 21:54\n"
+"PO-Revision-Date: 2022-08-18 16:40\n"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields.selection,name:report_py3o_fusion_server.selection__py3o_pdf_options__open_bookmark_levels__10
@@ -470,7 +470,7 @@ msgstr ""
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__printing
 msgid "Printing"
-msgstr ""
+msgstr "Drucken"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_server__url
