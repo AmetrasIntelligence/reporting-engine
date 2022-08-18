@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.reporting-engine] 13.0/kpi/i18n/kpi.pot\n"
 "X-Crowdin-File-ID: 4674\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-12 14:28\n"
+"PO-Revision-Date: 2022-08-18 10:26\n"
 
 #. module: kpi
 #: model:ir.model.fields,field_description:kpi.field_kpi__active
@@ -91,7 +91,7 @@ msgstr ""
 #. module: kpi
 #: model:ir.model.fields.selection,name:kpi.selection__kpi__periodicity_uom__day
 msgid "Day"
-msgstr ""
+msgstr "Tag"
 
 #. module: kpi
 #: model:ir.model.fields,field_description:kpi.field_kpi__description
@@ -349,7 +349,7 @@ msgstr ""
 #. module: kpi
 #: model:ir.model.fields.selection,name:kpi.selection__kpi__periodicity_uom__month
 msgid "Month"
-msgstr ""
+msgstr "Monat"
 
 #. module: kpi
 #: model:ir.model.fields,field_description:kpi.field_kpi__name
