@@ -78,8 +78,7 @@ class Py3oReport(models.TransientModel):
     )
 
     def _is_valid_template_path(self, path):
-        """ Check if the path is a trusted path for py3o templates.
-        """
+        """Check if the path is a trusted path for py3o templates."""
         real_path = os.path.realpath(path)
         root_path = tools.config.get_misc("report_py3o", "root_tmpl_path")
         if not root_path:
@@ -100,8 +99,7 @@ class Py3oReport(models.TransientModel):
         return is_valid
 
     def _is_valid_template_filename(self, filename):
-        """ Check if the filename can be used as py3o template
-        """
+        """Check if the filename can be used as py3o template"""
         if filename and os.path.isfile(filename):
             fname, ext = os.path.splitext(filename)
             ext = ext.replace(".", "")
@@ -115,7 +113,7 @@ class Py3oReport(models.TransientModel):
         return False
 
     def _get_template_from_path(self, tmpl_name):
-        """ Return the template from the path to root of the module if specied
+        """Return the template from the path to root of the module if specied
         or an absolute path on your server
         """
         if not tmpl_name:
@@ -200,8 +198,7 @@ class Py3oReport(models.TransientModel):
         return result_path
 
     def _create_single_report(self, model_instance, data):
-        """ This function to generate our py3o report
-        """
+        """This function to generate our py3o report"""
         self.ensure_one()
         action_report = self.ir_actions_report_id
         filetype = action_report.py3o_filetype
@@ -305,7 +302,7 @@ class Py3oReport(models.TransientModel):
 
     @api.model
     def _merge_pdf(self, reports_path):
-        """ Merge PDF files into one.
+        """Merge PDF files into one.
 
         :param reports_path: list of path of pdf files
         :returns: path of the merged pdf
@@ -343,8 +340,7 @@ class Py3oReport(models.TransientModel):
                 logger.error("Error when trying to remove file %s" % temporary_file)
 
     def create_report(self, res_ids, data):
-        """ Override this function to handle our py3o report
-        """
+        """Override this function to handle our py3o report"""
         model_instances = self.env[self.ir_actions_report_id.model].browse(res_ids)
         reports_path = []
         if len(res_ids) > 1 and self.ir_actions_report_id.py3o_multi_in_one:

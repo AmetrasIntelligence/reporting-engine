@@ -34,7 +34,8 @@ class ReportCertificate(models.Model):
         ondelete="cascade",
     )
     domain = fields.Char(
-        string="Domain", help="Domain for filtering if sign or not the document",
+        string="Domain",
+        help="Domain for filtering if sign or not the document",
     )
     action_report_ids = fields.Many2many(
         string="Allowed reports",
@@ -78,5 +79,6 @@ class ReportCertificate(models.Model):
         help="Location to include in digital signature (typically, a city name). ",
     )
     endesive_certificate_reason = fields.Char(
-        string="Signature reason", help="Reason text to include in digital signature.",
+        string="Signature reason",
+        help="Reason text to include in digital signature.",
     )

@@ -43,10 +43,12 @@ class TestCommentTemplate(common.SavepointCase):
 
     def test_template_name_get(self):
         self.assertEqual(
-            self.before_template_id.display_name, "Top template (Top)",
+            self.before_template_id.display_name,
+            "Top template (Top)",
         )
         self.assertEqual(
-            self.after_template_id.display_name, "Bottom template (Bottom)",
+            self.after_template_id.display_name,
+            "Bottom template (Bottom)",
         )
 
     def test_general_template(self):

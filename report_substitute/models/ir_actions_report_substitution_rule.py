@@ -37,7 +37,8 @@ class ActionsReportSubstitutionRule(models.Model):
                 substitution_rule
             ) in substitution_report.action_report_substitution_rule_ids:
                 _check_infinite_loop(
-                    original_report, substitution_rule.substitution_action_report_id,
+                    original_report,
+                    substitution_rule.substitution_action_report_id,
                 )
 
         for rec in self:

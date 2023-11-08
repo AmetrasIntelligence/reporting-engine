@@ -28,7 +28,9 @@ class KpiKpi(models.Model):
     )
     value = fields.Serialized()
     dashboard_item_ids = fields.One2many("kpi.dashboard.item", inverse_name="kpi_id")
-    model_id = fields.Many2one("ir.model",)
+    model_id = fields.Many2one(
+        "ir.model",
+    )
     function = fields.Char()
     args = fields.Char()
     kwargs = fields.Char()

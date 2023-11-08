@@ -9,10 +9,14 @@ class PrintReportWizard(models.TransientModel):
     _description = "Print Report Wizard"
 
     reference = fields.Reference(
-        string="Document", selection="_reference_models", required=True,
+        string="Document",
+        selection="_reference_models",
+        required=True,
     )
     action_report_id = fields.Many2one(
-        comodel_name="ir.actions.report", string="Report Template", required=True,
+        comodel_name="ir.actions.report",
+        string="Report Template",
+        required=True,
     )
 
     @api.model

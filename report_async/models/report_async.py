@@ -25,7 +25,9 @@ class ReportAsync(models.Model):
     _description = "Report Async"
 
     action_id = fields.Many2one(
-        comodel_name="ir.actions.act_window", string="Reports", required=True,
+        comodel_name="ir.actions.act_window",
+        string="Reports",
+        required=True,
     )
     allow_async = fields.Boolean(
         string="Allow Async",
@@ -33,7 +35,10 @@ class ReportAsync(models.Model):
         help="This is not automatic field, please check if you want to allow "
         "this report in background process",
     )
-    name = fields.Char(string="Name", related="action_id.display_name",)
+    name = fields.Char(
+        string="Name",
+        related="action_id.display_name",
+    )
     email_notify = fields.Boolean(
         string="Email Notification",
         help="Send email with link to report, when it is ready",
@@ -60,7 +65,10 @@ class ReportAsync(models.Model):
         compute="_compute_job",
         help="Latest Job Status",
     )
-    job_info = fields.Text(compute="_compute_job", help="Latest Job Error Message",)
+    job_info = fields.Text(
+        compute="_compute_job",
+        help="Latest Job Error Message",
+    )
     file_ids = fields.Many2many(
         comodel_name="ir.attachment",
         compute="_compute_file",
